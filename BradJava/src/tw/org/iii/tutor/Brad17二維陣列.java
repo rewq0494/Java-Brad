@@ -14,7 +14,7 @@ public class Brad17二維陣列 {
 				System.out.print(a2 +" ");
 			}
 			System.out.println();
-		}
+		} 
 		System.out.println("-----");
 		
 		//傳統用法
