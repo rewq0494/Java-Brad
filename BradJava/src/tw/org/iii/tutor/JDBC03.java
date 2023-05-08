@@ -17,8 +17,8 @@ public class JDBC03 {
 			"jdbc:mysql://localhost:8889/iii",prop);
 		
 		Statement stmt = conn.createStatement();
-		//String sql = "UPDATE cust SET cname = 'Tony' WHERE id = 4";
-		String sql ="DELETE FROM cust WHERE id = 5";
+		//String sql = "UPDATE cust SET cname = 'Tony' WHERE id = 1";
+		String sql ="DELETE FROM cust WHERE id = 1";//刪除
 		
 		int count = stmt.executeUpdate(sql);//執行
 		System.out.println("count");
